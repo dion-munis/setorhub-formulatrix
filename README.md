@@ -39,7 +39,7 @@ src/
 5. Buat folder baru saat app berjalan → otomatis muncul di dashboard.
 6. Tutup dan buka lagi app → data tetap ada (persist).
 
-Untuk panduan setup & konfigurasi lengkap bisa lihat disini
+Untuk panduan setup & konfigurasi lengkap bisa lihat disini https://dm-devs.notion.site/SetorHub-3a5a8af89e4f8045b26de158dfc56daa
 
 ## Next Steps
 
