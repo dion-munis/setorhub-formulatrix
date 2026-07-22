@@ -9,12 +9,18 @@ export const useProjectStore = create((set, get) => ({
   loading: false,
   selectedProject: null,
 
-  checkOnboarding: async () => {
-    const rootPath = await window.api.getConfig('root_path');
-    const depth = parseInt(await window.api.getConfig('scan_depth') || '2', 10);
-    const driveRoot = await window.api.getConfig('drive_root');
-    set({ isOnboarded: !!rootPath, rootPath, driveRoot, scanDepth: depth });
-    if (rootPath) get().refreshProjects();
+      checkOnboarding: async () => {
+    try {
+      const rootPath = await window.api.getConfig('root_path');
+      const depth = parseInt(await window.api.getConfig('scan_depth') || '2', 10);
+      const driveRoot = await window.api.getConfig('drive_root');
+      
+      set({ isOnboarded: !!rootPath, rootPath, driveRoot, scanDepth: depth });
+      if (rootPath) get().refreshProjects();
+    } catch (err) {
+      console.error('checkOnboarding failed:', err);
+      set({ isOnboarded: false, rootPath: null, driveRoot: null, scanDepth: 2 });
+    }
   },
 
   completeOnboarding: async (rootPath, depth) => {
@@ -51,3 +57,5 @@ export const useProjectStore = create((set, get) => ({
     }));
   }
 }));
+
+

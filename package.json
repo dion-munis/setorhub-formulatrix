@@ -53,6 +53,13 @@
     ],
     "directories": {
       "output": "release"
+    },
+    "nsis": {
+      "createDesktopShortcut": true,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "SetorHub",
+      "createStartMenuShortcut": true,
+      "oneClick": false
     }
   }
 }
