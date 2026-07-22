@@ -1,0 +1,165 @@
+{
+  "app": {
+    "name": "SetorHub",
+    "tagline": "Submit Projects Effortlessly, Safe Reports Every 6 Months"
+  },
+  "preload": {
+    "loading": "Loading..."
+  },
+  "onboarding": {
+    "pickRootFolder": "Pick Root Folder",
+    "pickRootDesc": "Choose the main folder containing your design team projects.",
+    "clickToPick": "Click to select a folder",
+    "next": "Next",
+    "folderLevel": "Folder Level",
+    "folderLevelDesc": "How many folder levels until it's considered a \"Project\"?",
+    "level": "level",
+    "example": "Example: {{path}} = {{depth}} levels below root.",
+    "back": "Back",
+    "scanning": "Scanning...",
+    "startScan": "Start Scan",
+    "rootFolder": "Root Folder",
+    "category": "Category",
+    "subCategory": "Sub Category",
+    "division": "Division",
+    "team": "Team",
+    "campaign": "Campaign",
+    "asset": "Asset",
+    "version": "Version",
+    "variant": "Variant",
+    "final": "Final",
+    "projectName": "Project Name"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "analytics": "Analytics",
+    "projects": "Projects",
+    "settings": "Settings"
+  },
+  "stats": {
+    "totalProjects": "Total Projects",
+    "onProgress": "In Progress",
+    "done": "Done",
+    "needReview": "Needs Review",
+    "fromLastMonth": "from last month",
+    "thisMonth": "this month"
+  },
+  "analyticsPage": {
+    "title": "Analytics",
+    "subtitle": "Project statistics and analysis",
+    "comingSoon": "Analytics feature coming soon"
+  },
+  "projectsPage": {
+    "title": "Projects",
+    "subtitle": "All design team projects"
+  },
+  "dashboard": {
+    "settings": "Settings",
+    "generateReport": "Generate Report to Google Sheets",
+    "generating": "Generating...",
+    "report": "Report",
+    "scanScanning": "Scanning...",
+    "scanRescan": "Rescan",
+    "reportFailed": "Failed to generate report: ",
+    "reportName": "Marketing Report - {{date}}"
+  },
+  "status": {
+    "onProgress": "In Progress",
+    "done": "Done",
+    "needReview": "Needs Review",
+    "delayed": "Postponed",
+    "cancelled": "Cancelled",
+    "revise": "Revise"
+  },
+  "panel": {
+    "status": "Status",
+    "priority": "Priority",
+    "startDate": "Start Date",
+    "approver": "Approver",
+    "approverPlaceholder": "Approver name...",
+    "comments": "Comments",
+    "commentsPlaceholder": "Add a note...",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "save": "Save"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Change root folder, scan level, and Drive path",
+    "rootFolder": "Root Folder",
+    "notSelected": "Not selected",
+    "pick": "Pick",
+    "changeFolderWarning": "Changing folder will trigger a rescan",
+    "folderLevel": "Folder Level",
+    "folderLevelDesc": "How many folder levels until it's considered a \"Project\"?",
+    "level": "level",
+    "example": "Example: {{path}} = {{depth}} levels below root.",
+    "driveRootOptional": "Drive Root Folder (Optional)",
+    "driveRootDesc": "Base path for folder structure in Google Drive. Leave empty to use the same root folder.",
+    "useCustomDrive": "Use custom Drive path",
+    "sameAsRoot": "Same as root folder",
+    "driveExampleCustom": "Example: If Drive Root = {{driveRoot}}, then folder {{folderPath}} will be created in Drive.",
+    "driveExampleDefault": "Folders in Drive will be created based on the relative path from root folder.",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "saveRescan": "Save & Rescan",
+    "unsavedChanges": "You have unsaved changes",
+    "noChanges": "No changes"
+  },
+  "table": {
+    "emptyTitle": "No projects detected yet",
+    "emptyHint": "Click \"Rescan\" to scan folders",
+    "colProject": "Project",
+    "colCategory": "Category",
+    "colStatus": "Status",
+    "colPriority": "Priority",
+    "colStartDate": "Start Date",
+    "colApprover": "Approver",
+    "colModified": "Last Modified",
+    "colDrive": "Drive",
+    "folderMissing": "Folder missing"
+  },
+  "filter": {
+    "searchPlaceholder": "Search project name...",
+    "all": "All",
+    "reset": "Reset",
+    "project": "project",
+    "of": "of"
+  },
+  "drive": {
+    "connected": "Drive Connected",
+    "connect": "Connect Drive",
+    "googleDrive": "Google Drive",
+    "statusConnected": "Connected",
+    "disconnect": "Disconnect",
+    "connectToDrive": "Connect to Google Drive",
+    "connectFailed": "Failed to connect to Google Drive: ",
+    "confirmDisconnect": "Are you sure you want to disconnect from Google Drive?",
+    "openFolder": "Open folder in Google Drive",
+    "uploadFile": "Upload file to Drive",
+    "linkToDrive": "Link to Drive"
+  },
+  "linkModal": {
+    "title": "Link to Google Drive",
+    "successTitle": "Success!",
+    "successDesc": "Folder and files have been uploaded to Google Drive",
+    "openInDrive": "Open in Google Drive",
+    "uploading": "Uploading...",
+    "creatingFolder": "Creating folder in Drive...",
+    "of": "of",
+    "file": "file",
+    "folderInDrive": "Folder in Google Drive:",
+    "supportFiles": "Support Files (Optional)",
+    "allFormats": "All file formats allowed (max 500MB per file)",
+    "clickToSelect": "Click to select files",
+    "dragDrop": "or drag & drop files here",
+    "fileTooLarge": "File \"{{name}}\" is too large (max 500MB)",
+    "linkFailed": "Failed to connect to Drive",
+    "accessFailed": "Failed to access Google Drive. Please logout and login again, then try again.",
+    "notAuthenticated": "You are not authenticated to Google Drive. Please login first.",
+    "cancel": "Cancel",
+    "uploadAndLink": "Upload {{count}} File(s) & Link",
+    "linkToDrive": "Link to Drive",
+    "close": "Close"
+  }
+}
