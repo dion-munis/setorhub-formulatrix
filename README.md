@@ -39,6 +39,8 @@ src/
 5. Buat folder baru saat app berjalan → otomatis muncul di dashboard.
 6. Tutup dan buka lagi app → data tetap ada (persist).
 
+Untuk panduan setup & konfigurasi lengkap bisa lihat disini
+
 ## Next Steps
 
 - Google Sheets/Drive sync
