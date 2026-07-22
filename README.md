@@ -1,5 +1,7 @@
 # SetorHub Formulatrix
 
+![SetorHub Header](./docs/header.png)
+
 Desktop app (Electron + React + Tailwind + SQLite) untuk tracking project design team dari folder lokal. Scan folder project dan tracking status tanpa input manual ke Google Sheets.
 
 ## Cara Menjalankan (Development)
