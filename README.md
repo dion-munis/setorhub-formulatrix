@@ -2,11 +2,11 @@
 
 ![SetorHub Header](./docs/header.png)
 
-Desktop app (Electron + React + Tailwind + SQLite) untuk tracking project design team dari folder lokal. Scan folder project dan tracking status tanpa input manual ke Google Sheets.
+Desktop app (Electron + React + Tailwind + SQLite) untuk tracking project design team dari folder lokal. Scan folder project dan tracking status tanpa input manual laporan monthly task setiap 6 bulan sekali hehe
 
 ## Cara Menjalankan (Development)
 
-Pastikan sudah install **Node.js 18+** dan **Python + build tools** (dibutuhkan `better-sqlite3` untuk native compile).
+Pastikan sudah install **Node.js 18+** dan **Python + build tools** guys (butuh `better-sqlite3` untuk native compile).
 
 ```bash
 npm install
@@ -36,12 +36,7 @@ src/
 2. Cek dashboard menampilkan semua project sesuai kedalaman folder.
 3. Klik salah satu project, ubah status/priority/deadline, klik Simpan.
 4. Cek file `.tracker.json` otomatis muncul di folder project.
-5. Buat folder baru saat app berjalan → otomatis muncul di dashboard.
+5. Buat folder baru saat app berjalan → otomatis muncul di aplikasi.
 6. Tutup dan buka lagi app → data tetap ada (persist).
 
 Untuk panduan setup & konfigurasi lengkap bisa lihat disini https://dm-devs.notion.site/SetorHub-3a5a8af89e4f8045b26de158dfc56daa
-
-## Next Steps
-
-- Google Sheets/Drive sync
-- OAuth2 Google integration
